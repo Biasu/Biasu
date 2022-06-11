@@ -10,42 +10,7 @@ You can click the Preview link to take a look at your changes.
 --->
 // ==UserScript==
 // @name         Steam assistant(Steam小助手)
-// @description  WEB端Steam小助手，集合多种功能如Steam批量留言,点赞,好友管理,喜加一...，佛系更新中...欢迎提出您的建议或者共同学习交流
-// @version      1.2.3.4.5
-// @date         2020.6.30
-// @source       https://github.com/Mikuof39/Steam-assistant-Steam-
-// @homepage     https://steamcommunity.com/sharedfiles/filedetails/?id=1993903275
-// @supportURL   https://greasyfork.org/zh-CN/scripts/397073/feedback
-// @author       Biasu
-// @license      GPL License
-// @namespace    https://steamcommunity.com/id/miku-39/
-// @namespace    https://www.tampermonkey.net/
-// @namespace    https://greasyfork.org/
-// @icon         https://store.steampowered.com/favicon.ico
-// @icon64       https://steamcommunity-a.akamaihd.net/public/shared/images/responsive/share_steam_logo.png
-// @note         CSS-----------------------------------------------------------------------
-// @resource     css_layui https://www.layuicdn.com/layui-v2.5.6/css/layui.css
-// @resource     css_laydate https://www.layuicdn.com/layui-v2.5.6/css/modules/laydate/default/laydate.css?v=5.0.9
-// @resource     css_layer https://www.layuicdn.com/layui-v2.5.6/css/modules/layer/default/layer.css?v=3.1.1
-// @resource     css_layui_Modules https://www.layuicdn.com/layui-v2.5.6/css/modules/code.css
-// @resource     css_fontAwesome https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css
-// @note         JS-----------------------------------------------------------------------
-// @resource     JS_highstock https://code.highcharts.com.cn/highstock/highstock.js
-// @resource     JS_highstock_exporting https://code.highcharts.com.cn/highcharts/modules/exporting.js
-// @resource     JS_highstock_oldie https://code.highcharts.com.cn/highcharts/modules/oldie.js
-// @resource     JS_highstock_networkgraph https://code.highcharts.com.cn/highcharts/modules/networkgraph.js
-// @resource     JS_highstock_zh_CN https://code.highcharts.com.cn/highcharts-plugins/highcharts-zh_CN.js
-// @resource     JS_layui https://www.layuicdn.com/layui-v2.5.6/layui.all.js
-// @resource     JS_localforage https://cdnjs.cloudflare.com/ajax/libs/localforage/1.7.3/localforage.min.js
-// @resource     JS_draw https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.2.4/pixi.js
-// @resource     JS_animate https://code.createjs.com/1.0.0/tweenjs.js
-// @resource     JS_sound https://code.createjs.com/1.0.0/soundjs.js
-// @resource     JS_render https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.js
-// @resource     JS_multithreading https://gitlab.com/hordesolutions/Hamsters.js/-/raw/master/build/hamsters.min.js
-// @resource     JS_pep https://code.jquery.com/pep/0.4.3/pep.js
-// @resource     JS_babylon https://preview.babylonjs.com/babylon.js
-// @resource     JS_babylon_loaders https://preview.babylonjs.com/loaders/babylonjs.loaders.min.js
-// @resource     Jquery_localizationtool https://greasyfork.org/scripts/403927-jquery-localizationtool-js/code/jquerylocalizationTooljs.js?version=808323
+
 // @note         运行页面-> 社区
 // @include      /^https?:\/\/steamcommunity.com\/(id\/+[A-Za-z0-9$-_.+!*'(),]+|profiles\/7656119[0-9]{10})\/friends\/?$/
 // @include      /^https?:\/\/steamcommunity.com\/(id\/+[A-Za-z0-9$-_.+!*'(),]+|profiles\/7656119[0-9]{10})\/friends\/?(add|pending|blocked|coplay|broadcast_moderator)?\/?$/
